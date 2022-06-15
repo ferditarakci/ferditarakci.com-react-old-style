@@ -1,0 +1,166 @@
+
+// INDEX OF ANIMATIONS
+// This is a port of Den Eden's Animate.css, converted for SASS.
+// Source: https://daneden.me/animate/
+//
+// @import this index into your project.
+// Comment out categories below to remove them from your project.
+// Or, @import specific partials (e.g. @import "attention/bounce.scss";
+//
+//-----------------------------------------------------------------------
+
+.wow {
+	visibility: hidden;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+
+	&.infinite {
+	  animation-iteration-count: infinite;
+	}
+}
+
+
+
+// Always required
+@import "properties";
+
+// Import the animations
+
+// @import "attention-seekers/attention-seekers";
+// @import "attention-seekers/bounce";
+// @import "attention-seekers/flash";
+// @import "attention-seekers/jello";
+@import "attention-seekers/pulse";
+// @import "attention-seekers/rubberBand";
+// @import "attention-seekers/shake";
+// @import "attention-seekers/swing";
+// @import "attention-seekers/tada";
+// @import "attention-seekers/wobble";
+
+
+// @import "bouncing-entrances/bouncing-entrances";
+// @import "bouncing-entrances/bounceIn";
+// @import "bouncing-entrances/bounceInDown";
+// @import "bouncing-entrances/bounceInLeft";
+// @import "bouncing-entrances/bounceInRight";
+// @import "bouncing-entrances/bounceInUp";
+
+
+// @import "bouncing-exits/bouncing-exits";
+// @import "bouncing-exits/bounceOut";
+// @import "bouncing-exits/bounceOutDown";
+// @import "bouncing-exits/bounceOutLeft";
+// @import "bouncing-exits/bounceOutRight";
+// @import "bouncing-exits/bounceOutUp";
+
+
+// @import "fading-entrances/fading-entrances";
+@import "fading-entrances/fadeIn";
+// @import "fading-entrances/fadeInDown";
+// @import "fading-entrances/fadeInDownBig";
+// @import "fading-entrances/fadeInLeft";
+// @import "fading-entrances/fadeInLeftBig";
+// @import "fading-entrances/fadeInRight";
+// @import "fading-entrances/fadeInRightBig";
+// @import "fading-entrances/fadeInUp";
+// @import "fading-entrances/fadeInUpBig";
+
+
+// @import "fading-exits/fading-exits";
+// @import "fading-exits/fadeOut";
+// @import "fading-exits/fadeOutDown";
+// @import "fading-exits/fadeOutDownBig";
+// @import "fading-exits/fadeOutLeft";
+// @import "fading-exits/fadeOutLeftBig";
+// @import "fading-exits/fadeOutRight";
+// @import "fading-exits/fadeOutRightBig";
+// @import "fading-exits/fadeOutUp";
+// @import "fading-exits/fadeOutUpBig";
+
+
+// @import "flippers/flippers";
+// @import "flippers/flip";
+// @import "flippers/flipInX";
+// @import "flippers/flipInY";
+// @import "flippers/flipOutX";
+// @import "flippers/flipOutY";
+
+
+// @import "lightspeed/lightspeed";
+// @import "lightspeed/lightSpeedIn";
+// @import "lightspeed/lightSpeedOut";
+
+
+// @import "rotating-entrances/rotating-entrances";
+// @import "rotating-entrances/rotateIn";
+// @import "rotating-entrances/rotateInDownLeft";
+// @import "rotating-entrances/rotateInDownRight";
+// @import "rotating-entrances/rotateInUpLeft";
+// @import "rotating-entrances/rotateInUpRight";
+
+
+// @import "rotating-exits/rotating-exits";
+// @import "rotating-exits/rotateOut";
+// @import "rotating-exits/rotateOutDownLeft";
+// @import "rotating-exits/rotateOutDownRight";
+// @import "rotating-exits/rotateOutUpLeft";
+// @import "rotating-exits/rotateOutUpRight";
+
+
+// @import "sliding-entrances/sliding-entrances";
+// @import "sliding-entrances/slideInDown";
+@import "sliding-entrances/slideInLeft";
+@import "sliding-entrances/slideInRight";
+@import "sliding-entrances/slideInUp";
+
+
+// @import "sliding-exits/sliding-exits";
+// @import "sliding-exits/slideOutDown";
+// @import "sliding-exits/slideOutLeft";
+// @import "sliding-exits/slideOutRight";
+// @import "sliding-exits/slideOutUp";
+
+
+// @import "specials/specials";
+// @import "specials/hinge";
+// @import "specials/rollIn";
+// @import "specials/rollOut";
+
+
+// @import "zooming-entrances/zooming-entrances";
+// @import "zooming-entrances/zoomIn";
+// @import "zooming-entrances/zoomInDown";
+// @import "zooming-entrances/zoomInLeft";
+// @import "zooming-entrances/zoomInRight";
+// @import "zooming-entrances/zoomInUp";
+
+
+// @import "zooming-exits/zooming-exits";
+// @import "zooming-exits/zoomOut";
+// @import "zooming-exits/zoomOutDown";
+// @import "zooming-exits/zoomOutLeft";
+// @import "zooming-exits/zoomOutRight";
+// @import "zooming-exits/zoomOutUp";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Instagram",
+		"link": "//www.instagram.com/webdeveloper_ferditarakci/",
+		"class": "in",
+		"header": true
+	},
+	{
+		"title": "Twitter",
+		"link": "//twitter.com/ferditarakci",
+		"class": "tw",
+		"header": true
+	},
+	{
+		"title": "Linkedin",
+		"link": "//www.linkedin.com/in/ferditarakci/",
+		"class": "li",
+		"header": true
+	},
+	{
+		"title": "Facebook",
+		"link": "//www.facebook.com/WebDeveloperFerdiTarakci/",
+		"class": "fb",
+		"header": false
+	}
+]

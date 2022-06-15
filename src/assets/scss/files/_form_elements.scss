@@ -1,0 +1,52 @@
+.form {
+	position: relative;
+	width: 100%;
+}
+
+.form-label {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.form-control {
+	height: 56px;
+	margin: 0;
+	padding: 15px 20px;
+	color: var(--black);
+	border-radius: 6px;
+	border-color: rgba(black, 0.25);
+	box-shadow: inset 0px -3px 9px 0px rgba(black, 0.05);
+	transition: all 0.3s linear;
+
+	&:focus {
+		color: #2f3032 !important;
+		border-color: #80bdff !important;
+		box-shadow: inset 0px -3px 9px 0px rgba(black, 0.05), 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+	}
+
+	.error & {
+		border-color: var(--red) !important;
+		box-shadow: inset 0px -3px 9px 0px rgba(black, 0.05), 0px 0px 4px 4px rgba(255, 0, 0, 0.17) !important;
+	}
+}
+
+input,
+textarea {
+	&:-webkit-autofill,
+	&:-internal-autofill-selected {
+		&, &:hover, &:focus {
+			background-color: #fff !important;
+			box-shadow: inset 0 0 0px 1000px #fff;
+		}
+	}
+}
+
+textarea.form-control {
+	min-height: 130px;
+	height: 130px;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: rgba(black, 0.6);
+}

@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"icon": "desktop_mac",
+		"label": "Freelance Web Tasarım",
+		"title": "Web Tasarım",
+		"text": "Güncel web tasarım trendlerini göz önünde bulundurarak profesyonel bir ekiple özgün, amaca uygun ve kreatif web tasarımlar yapıyoruz."
+	},
+	{
+		"id": 2,
+		"icon": "code",
+		"label": "Freelance Web Yazılım",
+		"title": "Web Yazılım",
+		"text": "Standart HTML5/CSS3/JQUERY yanı sıra en yeni web teknolojileri (VueJS, ReactJs) ile güncel web tarayıcılarına uygun \"cross browser\" front-end kodlama yapıyorum. PHP/MYSQL teknologileriyle back-end kodlama hizmeti veriyorum."
+	},
+	{
+		"id": 3,
+		"icon": "tablet_mac",
+		"label": "Responsive Uyumlu Web Sitesi",
+		"title": "Responsive Uyumluluk",
+		"text": "Android/IOS mobil cihazlara uygun olarak farklı ekran çözünürlüklerinde sorunsuz çalışabilen \"fully responsive\" web siteleri kodluyorum."
+	},
+	{
+		"id": 4,
+		"icon": "multiline_chart",
+		"label": "Web Sitesi SEO Optimizasyonu",
+		"title": "Seo Optimizasyonu",
+		"text": "Web sitenizi SEO kurallarına uygun hale getirip, profesyonel SEO çalışmaları yaparak web sitenizi Google'da ilk sıralara taşıyorum."
+	},
+	{
+		"id": 5,
+		"icon": "pie_chart",
+		"label": "Google Adwords Reklam Yönetme",
+		"title": "Google Adwords",
+		"text": "Yerel ölçekli Google Adwords reklamları ile ürün ve hizmetlerinizi daha hızlı ve daha kolay satabilmenizi sağlıyorum."
+	},
+	{
+		"id": 6,
+		"icon": "settings",
+		"label": "Atıl Web Sitelerinin Bakım ve Onarımı",
+		"title": "Web Site Bakım Onarım",
+		"text": "Atıl olan web sitelerinize; yeni içerik girişi, içerik düzenleme ve yazılımsal güncelleme hizmeti veriyorum."
+	}
+]

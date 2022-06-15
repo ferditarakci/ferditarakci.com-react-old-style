@@ -1,0 +1,27 @@
+[
+	{
+		"title": "Freelance Web Tasarımcı - Ferdi Tarakcı",
+		"text": "Giriş",
+		"link": "#home"
+	},
+	{
+		"title": "Freelance Web Tasarım Uzmanı",
+		"text": "Hakkımda",
+		"link": "#about"
+	},
+	{
+		"title": "Web Tasarım Hizmetleri",
+		"text": "Hizmetlerim",
+		"link": "#services"
+	},
+	{
+		"title": "Web Tasarım Çalışmaları",
+		"text": "Çalışmalarım",
+		"link": "#works"
+	},
+	{
+		"title": "Freelance Web Tasarımcınız",
+		"text": "İletişim",
+		"link": "#contact"
+	}
+]

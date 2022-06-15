@@ -1,0 +1,51 @@
+@keyframes logoEffect {
+	0% {}
+
+	100% {
+		left: calc(100% + 14px);
+	}
+}
+
+@keyframes bgrepeat {
+	0%, 100% {
+		background-position: 20% 60%;
+	}
+
+	30% {
+		background-position: 80% 30%;
+	}
+
+	50% {
+		background-position: 50% 20%;
+	}
+
+	80% {
+		background-position: 30% 80%;
+	}
+}
+
+@keyframes exterBounce {
+	0% {
+		transform: translate3d(0, -25px, 0);
+	}
+	50% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(0, -25px, 0);
+	}
+}
+
+.exterBounce {
+	animation: exterBounce 1.2s ease-in-out 0s infinite;
+
+	&:hover {
+		animation-play-state: paused;
+	}
+}
+
+@keyframes spin { 
+    to {
+        transform: rotate(360deg);
+    }
+}

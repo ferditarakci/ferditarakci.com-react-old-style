@@ -1,0 +1,45 @@
+@media (min-width: 576px) {
+	:root {
+		--header: 70px;
+		--logo-w: 213px;
+		--logo-h: 50px;
+		--section-title: 32px;
+	}
+}
+
+@media (min-width: 768px) {
+	:root {
+		--section-title: 42px;
+	}
+
+	#works {
+		.item {
+			height: 500px;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	:root {
+		--header: 80px;
+		--logo-w: 256px;
+		--logo-h: 60px;
+	}
+
+	#header {
+		.col-lg-8 {
+			padding-right: 146px;
+		}
+
+		.socials {
+			position: absolute;
+			top: 0;
+			right: var(--bs-gutter-x, 0.71rem);
+
+			&::before {
+				left: 0;
+				right: auto;
+			}
+		}
+	}
+}
